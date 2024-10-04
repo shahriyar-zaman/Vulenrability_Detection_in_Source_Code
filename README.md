@@ -32,9 +32,9 @@ The proposed ensemble stacking method improves the detection of code vulnerabili
 
 | Model                       | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) | AUC-Score |
 |-----------------------------|--------------|---------------|------------|--------------|-----------|
-| CodeBERT                     | 78.51        | 77.85         | 78.51      | 77.98        | 0.9216    |
-| GraphCodeBERT                | 80.05        | 79.92         | 80.05      | 79.86        | 0.9336    |
-| UniXcoder                    | 81.54        | 81.96         | 81.54      | 81.49        | 0.9380    |
+| CodeBERT(C)                  | 78.51        | 77.85         | 78.51      | 77.98        | 0.9216    |
+| GraphCodeBERT(G)                | 80.05        | 79.92         | 80.05      | 79.86        | 0.9336    |
+| UniXcoder(U)                   | 81.54        | 81.96         | 81.54      | 81.49        | 0.9380    |
 | Ours (C+G) (SVM)             | 81.46        | 81.77         | 81.46      | 81.40        | 0.8996    |
 | Ours (G+U) (SVM)             | 82.36        | 82.85         | 82.36      | 82.28        | 0.9053    |
 | Ours (G+U) (LR)              | 82.36        | 82.59         | 82.36      | 82.21        | 0.9285    |
