@@ -77,7 +77,7 @@ You can modify the dataset splits as needed or experiment with other datasets.
 ## 📚 Model Training
 To fine-tune a specific LLM, run:
 ```bash
-python train_model.py --model codebert --epochs 10 --batch_size 32 --learning_rate 2e-5
+python train_model.py --model codebert --epochs 10 --batch_size 16 --learning_rate 2e-5
 ```
 
 To run the meta-classifier with stacking:
