@@ -16,7 +16,7 @@ This repository contains the official implementation of our paper *"An Ensemble 
 
 
 ## Methodology
-1. **Data Preprocessing:** We tokenize code snippets and apply downsampling to address class imbalance. Models are fine-tuned on the balanced dataset.
+1. **Data Preprocessing:** First we removed null entried from the dataset, then we used downsampling.
 2. **Model Training:** CodeBERT, GraphCodeBERT, and UniXcoder are fine-tuned with vulnerability class labels.
 3. **Meta-Classifier Stacking:** Outputs of the fine-tuned models are combined using meta-classifiers like Logistic Regression, SVM, Random Forest, and XGBoost to make the final prediction.
 4. **Result Analysis:** Our ensemble stacking approach surpasses individual models in detecting vulnerabilities across multiple metrics.
