@@ -91,4 +91,3 @@ python train_meta_classifier.py --models codebert graphcodebert unixcoder --meta
 - D. Guo et al., "UniXcoder: Unified Cross-Modal Pre-training for Code Representation," 2022.
 - L. Russell et al., "The Draper VDISC Dataset," 2018.
 
-This README provides an overview of how to set up, train, and test the models for vulnerability detection using the proposed ensemble stacking approach.
